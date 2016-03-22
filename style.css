@@ -3,34 +3,48 @@
   style.css
 
 */
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #A6808C;
+  height: 100%;
+}
 h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 3em;
-  color: #111111;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 3.5em;
+  color: #eee;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: #eee;
-  padding: .5em;
+  background-color: #656E8A;
+  padding: .25em;
 }
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #ccc;
-}
-p {
-  background-color: #eee;
+.contentSpace {
+  background-color: #CCB7AE;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 0;
   margin-bottom: 0;
+  height: 100%;
+  padding: 2em 3em 2em 3em;
+}
+.contentSpace p {
+  color: #111;
+  font-family: 'Merriweather Sans';
+  font-size: 14pt;
+  background-color: #eee;
+  padding: 2em 3em 2em 3em;
+  border-radius: 0.5em 3em 3em 3em;
 }
 nav ul {
   /*height: 10%;*/
   list-style: none;
-  background-color: #444;
+  background-color: #9E4364;
   text-align: center;
   padding: 0;
   margin-top: 0;
@@ -40,9 +54,9 @@ nav ul {
 }
 nav li {
   font-family: 'Oswald', sans-serif;
-  font-size: 1.4em;
-  line-height: 1.5em;
-  height: 1.5em;
+  font-size: 1.75em;
+  line-height: 1.8em;
+  height: 1.8em;
   border-bottom: 1px solid #888;
 }
 nav a {
@@ -52,11 +66,11 @@ nav a {
   transition: .3s background-color;
 }
 nav a:hover {
-  background-color: #77aaff;
+  background-color: #A6808C;
 }
 nav a:active {
   background-color: #fff;
-  color: #444;
+  color: #111;
   cursor: default;
 }
 
@@ -64,9 +78,9 @@ nav a:active {
   nav li {
     width: 6em;
     border-bottom: none;
-    height: 1.5em;
-    line-height: 1.5em;
-    font-size: 1.4em;
+    height: 1.8em;
+    line-height: 1.8em;
+    font-size: 1.75em;
   }
 
   /* Option 1 - Display Inline */
