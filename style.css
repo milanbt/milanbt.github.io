@@ -57,7 +57,7 @@ nav li {
   font-size: 1.75em;
   line-height: 1.8em;
   height: 1.8em;
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #656E8A;
 }
 nav a {
   text-decoration: none;
@@ -76,7 +76,7 @@ nav a:active {
 
 @media screen and (min-width: 600px) {
   nav li {
-    width: 6em;
+    width: 5em;
     border-bottom: none;
     height: 1.8em;
     line-height: 1.8em;
@@ -88,18 +88,4 @@ nav a:active {
     display: inline-block;
     margin-right: -4px;
   }
-
-  /* Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
-  */
 }
