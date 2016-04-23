@@ -24,6 +24,14 @@ h1 {
   background-color: #656E8A;
   padding: .25em;
 }
+.aboutContent {
+ float: left;
+ width: 70%;
+}
+.profilePic {
+  float: right;
+  width: 25%;
+}
 .contentSpace {
   background-color: #CCB7AE;
   margin-left: 10%;
@@ -33,13 +41,38 @@ h1 {
   height: 100%;
   padding: 2em 3em 2em 3em;
 }
-.contentSpace p {
+.post {
   color: #111;
   font-family: 'Merriweather Sans';
   font-size: 14pt;
   background-color: #eee;
   padding: 2em 3em 2em 3em;
   border-radius: 0.5em 3em 3em 3em;
+  margin-bottom: 1em;
+}
+
+.aboutContent .post {
+  border-radius: 3em 3em 0.5em 3em;
+  padding: 2em 3em 2em 3em;
+}
+
+.artcol1 {
+  text-align: center;
+  float: left;
+  width: 49%;
+}
+.artcol1 .post {
+  border-radius: 3em 0.5em 3em 3em;
+  padding: 1em 2em 1em 2em;
+}
+.artcol2 {
+  text-align: center;
+  float: right;
+  width: 49%;
+}
+.artcol2 .post {
+  border-radius: 0.5em 3em 3em 3em;
+  padding: 1em 2em 1em 2em;
 }
 nav ul {
   /*height: 10%;*/
